@@ -1,13 +1,8 @@
 # Traffic Sign Classification
 
-Classify traffic signs using traditional machine learning method and deep learning methods.
-
-
 ## Introduction
 
-This cource project includes 4 tasks. Task 1 requires us to classify traffic signs using traditional machine learning method, task 2 requires us to classify using deep learning method, task 3 requires us to perform single example classification and task 4 requires us to detect traffic signs and then classify.
-
-I am responsible for task 1 & 2, so this repository only consists of code and report of these 2 tasks. If my teammates decide to public the remaining tasks on GitHub, I will add the links.
+Classify traffic signs using traditional machine learning method and deep learning methods.
 
 ## Dataset
 
