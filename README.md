@@ -1,8 +1,7 @@
 # Traffic Sign Classification
 
-Classify traffic signs using traditional machine learning method and deep learning methods. [course project of "Media and Recognition" of EE, Tsinghua University]
+Classify traffic signs using traditional machine learning method and deep learning methods.
 
-**See the [report](report/report.pdf)**.
 
 ## Introduction
 
@@ -12,9 +11,8 @@ I am responsible for task 1 & 2, so this repository only consists of code and re
 
 ## Dataset
 
-You can download the dataset from [Tsinghua Cloud Drive](https://cloud.tsinghua.edu.cn/d/b621dc639e7d4be6ba50/) or [Google Drive](https://drive.google.com/drive/folders/1vQubmgHQuVFoZ7JCpLwyG3PM16rHhjYU).
+You can download the dataset from [Google Drive](https://drive.google.com/drive/folders/1vQubmgHQuVFoZ7JCpLwyG3PM16rHhjYU).
 
-**Note**: the labels in `test.json` are randomly generated and only used to demonstrate the output format. However, only my teacher and TAs have the ground truths because this is a course project.
 
 ## Requirement
 
@@ -36,4 +34,4 @@ Task 2 requires
 
 ## Results
 
-Our work has 95.16% accuracy of task 1, and 97.89% accuracy of task 2 on the test set (according to my TA). Although we have relatively high accuracy of task 1, the accuracy of task 2 is not that high enough. The reason is that I adopted the network structure in this paper [[content](https://www.sciencedirect.com/science/article/abs/pii/S0893608018300054?via%3Dihub), [code (Lua)](https://github.com/aarcosg/tsr-torch)], but did not have time to shrink its size to fit our dataset (Our dataset is much smaller so this will apparently cause overfitting problems).
+Achived 95.16% accuracy of task 1, and 97.89% accuracy of task 2 on the test set. Although I have relatively high accuracy of task 1, the accuracy of task 2 is not that high enough. The reason is that I adopted the network structure in this paper [[content](https://www.sciencedirect.com/science/article/abs/pii/S0893608018300054?via%3Dihub), [code (Lua)](https://github.com/aarcosg/tsr-torch)], but did not have time to shrink its size to fit our dataset (Our dataset is much smaller so this will apparently cause overfitting problems).
